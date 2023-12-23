@@ -3,25 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../dist/output.css">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>portofilo</title>
 </head>
 <body>
-    <header>
-        <svg class="bg-black text-white mx-4 my-2" id="menubar" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg>
-        <!-- <p>feven lendu</p>
-        <img src="./images/MYLOGO.jpg" alt="logo" width="40" height="40">
-        <ul>
-            <li> <a href="home.html">Home</a></li>
+    <svg class="hamburger bg-black text-white mx-4 my-2" id="menubar" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg>
 
-        <li><a href="about.html">About me</a></li>
-       <li> <a href="testimonial.html">Testimonial</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg> -->
+    <header class="bg-cover bg-center w-1/2 text-white hidden relative px-8">
+        <div class="flex flex-col absolute top-0 left-0">
+            <div class="ml-4">
+                <img class="w-20 h-20 rounded-full" src="./images/MYLOGO.jpg" alt="logo">
+                <p>Feven Lendu</p>
+            </div>
+
+            <nav class="ml-4">
+                <ul>
+                    <div class="flex">
+                        <li class="bg-blue-800 border rounded-xl px-2 m-2 py-2"><a href="home.html" class="selected">Home</a></li>
+                        <li class="bg-blue-800 border rounded-xl px-2 m-2 py-2"><a href="about.html">About me</a></li>
+                        <li class="bg-blue-800 border rounded-xl px-2 m-2 py-2"><a href="testimonial.html">Testimonial</a></li>
+                    </div>
+                    <div class="flex ml-4">
+                        <li class="bg-blue-800 border rounded-xl px-4 m-2 py-2"><a href="education.html">Education</a></li>
+                        <li class="bg-blue-800 border rounded-xl px-2 m-2 py-2"><a href="contact.html">Contact</a></li>
+                    </div>
+                    </ul>
+            </nav>
+        </div>
+        
+        
     </header>
     <main>
         <h2 class="text-4xl font-bold mx-auto w-44 my-4 border-l-4 border-t-4 border-black rounded-tl-2xl">Background</h2>
